@@ -1,0 +1,39 @@
+/* library.css */
+
+.library-container {
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  padding: 5px;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+}
+
+.list-group {
+  border: 1px solid #2c2d34;
+}
+
+.list-group-item {
+  cursor: pointer;
+  background-color: #f7dc71;
+  border: 1px solid #2c2d34;
+  font-family: "Playfair Display", serif;
+}
+
+.list-group-item:hover,
+.list-group-item.active {
+  background-color: #F76B1C;
+}
+
+#favorite-btn:hover,
+#favorite-btn.active {
+  background-color: #F76B1C !important; /* Apply hover and active styles to the "FAVORITES" button */
+}

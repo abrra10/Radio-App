@@ -1,0 +1,84 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+/* Styles for login container */
+#login-container {
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: linear-gradient(0deg, rgba(247,107,28,1) 0%, rgba(247,220,113,1) 100%);
+}
+
+/* Styles for login form */
+#login-container .login-form {
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Styles for card body */
+#login-container .card-body {
+    background-color: #f7dc71;
+    padding: 20px;
+    border: none;
+    height: 100%;
+}
+
+/* Styles for headings */
+#login-container h2 {
+    font-size: 36px !important; 
+    text-align: left;
+    margin-top: 20px !important;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: #2c2d34;
+}
+
+/* Styles for paragraphs */
+#login-container p {
+    font-size: 28px; 
+    text-align: left;
+    line-height: 1.3; 
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: #4f505c;
+    margin-bottom: 50px !important;
+}
+
+/* Styles for form groups */
+#login-container #email,
+#login-container #password {
+    margin-bottom: 20px; 
+    width: 100%;
+}
+
+/* Styles for form labels */
+#login-container Form.Label {
+    font-weight: bold; /* Optionally adjust font weight */
+}
+
+/* Styles for form controls */
+#login-container Form.Control {
+    /* Add styles for form controls */
+    border-radius: 5px; /* Example border radius */
+    border: 1px solid #ccc; /* Example border */
+    padding: 10px; /* Example padding */
+}
+
+/* Styles for buttons */
+#login-container Button[type="submit"] {
+    /* Add styles for buttons */
+    background-color: #F76B1C; /* Example background color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Example border radius */
+    padding: 10px 20px; /* Example padding */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+#login-container Button[type="submit"]:hover {
+    background-color: #f5cf45; /* Change background color on hover */
+}

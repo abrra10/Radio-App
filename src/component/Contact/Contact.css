@@ -1,0 +1,43 @@
+.contact-container {
+  width: 100%;
+  background-color: #f7dc71;
+  background-image: linear-gradient(165deg, #f7dc71 50%, #f76b1c 100%);
+}
+
+.contact-container h2 {
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  padding: 16px;
+  color: #2c2d34;
+}
+
+.contact-container p {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  margin-top: 28px;
+  color: #2c2d34;
+}
+
+.form-container {
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #f76b1c;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-submit:hover {
+  background-color: #fcd957;
+  transition: 0.4s;
+}

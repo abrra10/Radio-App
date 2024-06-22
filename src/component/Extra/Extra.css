@@ -1,0 +1,47 @@
+/* Extra.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+#extra {
+    background-color: #f7dc71;
+    background-size: cover;
+    padding: 40px;
+    width: 100%;
+    height: auto;
+  }
+  
+#extra > div.container-fluid > div > div > div > h2 {
+    font-size: 60px ;
+    font-weight:bolder ;
+    font-family: "Playfair Display", serif ;
+    font-optical-sizing: auto ;
+    padding:16px ;
+    color: #2c2d34 ;
+}
+#extra > div.container-fluid > div > div > div > p {
+  font-size: 30px ;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto; 
+  margin-top: 28px;
+  color: #2c2d34;
+}
+
+#extra > div.carousel.slide.carousel-fade{
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+  
+
+#extra > div.carousel.slide.carousel-fade .carousel-inner .carousel-item .d-flex img {
+  width: 120px !important; 
+  height: 120px !important; 
+  margin: 20px; 
+  margin-bottom: 60px;
+    
+}
+
+  #root > div.extra > div.carousel.slide.carousel-fade > div.carousel-indicators > button {
+    display: none;
+  }
+  
